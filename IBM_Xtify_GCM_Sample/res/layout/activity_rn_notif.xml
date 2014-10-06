@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/actionbar_rn_notif"
+        layout="@layout/actionbarrich" />
+
+    <WebView
+        android:id="@+id/notif_content_webview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1" >
+    </WebView>
+
+    <RelativeLayout
+        android:id="@+id/notif_action_root"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#c2c2c2"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/separator"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:background="#00C8FF" />
+
+        <TextView
+            android:id="@+id/notif_action_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#1A1A1A" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">This custom app demonstrates Xtify\'s native push notifications platform</string>
+	<string name="app_name">Xtify Bed Bath Beyond Sample</string> 
+	<string name="example1_text">For Home</string>
+	<string name="example2_text">For Kitchen</string>
+	<string name="example3_text">For Bedroom</string>
+	<string name="example4_text">Wedding Registry</string>
+	<string name="example5_text">Going to College</string>
+	<string name="location_text">Location Alerts Enabled</string>
+	<string name="notif_text">Notifications Enabled</string>
+
+	<bool name="notif_text_default">true</bool>
+	<string name="example1_key">FH</string>
+	<string name="example2_key">FK</string>
+	<string name="example3_key">FB</string>
+	<string name="example4_key">WR</string>
+	<string name="example5_key">GC</string>
+	<string name="notif_key">LAA</string>
+	<string name="location_key">ISA</string>
+	
+	<string name="reg_button_text">Sign-In with Bed Bath Account</string>
+	<string name="reg_dialog_email_text">Enter Bed Bath Email</string>
+	<string name="reg_dialog_password_text">Enter Bed Bath Password</string>
+	
+	<string name="pushexample_button_1">Sign Up for Wedding Registry</string>
+	<string name="pushexample_button_2">Wedding Approaching</string>
+	<string name="pushexample_button_3">Check Reward Points</string>
+	<string name="pushexample_button_4">Get Special Reward!</string>
+</resources>
