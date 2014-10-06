@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="tag_preference" 
+    android:background="#000000">
+
+    <CheckBoxPreference
+        android:key="@string/example1_key"
+        android:title="@string/example1_text" />
+    
+    <CheckBoxPreference
+        android:key="@string/example2_key"
+        android:title="@string/example2_text" />
+    
+    <CheckBoxPreference
+        android:key="@string/example3_key"
+        android:title="@string/example3_text" />
+
+    <CheckBoxPreference
+        android:key="@string/example4_key"
+        android:title="@string/example4_text" />
+
+    <CheckBoxPreference
+        android:key="@string/example5_key"
+        android:title="@string/example5_text" />
+    
+    <CheckBoxPreference
+        android:defaultValue="@bool/notif_text_default"
+        android:key="@string/notif_key"
+        android:title="@string/notif_text" />
+    
+    <CheckBoxPreference
+        android:key="@string/location_key"
+        android:title="@string/location_text" />
+</PreferenceScreen>
